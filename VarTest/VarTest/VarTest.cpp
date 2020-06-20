@@ -8,11 +8,14 @@ int main()
     int age{ 10 };
     double rateOfInterest{ 0.07 };
     auto myVar{ 9.56 };
+    long int dudeAge{ 125 };
 
     cout << "Age is: " << age << endl;
     cout << "Rate of interest: " << rateOfInterest << endl;
     cout << "My variable is: " << myVar << " of type " 
          << typeid(myVar).name() << endl;
+    cout << "Ol' dude is: " << dudeAge << " years old!" << endl;
+
     return 0;
 }
 
